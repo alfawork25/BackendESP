@@ -1,7 +1,7 @@
 name: .NET Build App
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 env:
  dev: Server=(localdb)\\\\mssqllocaldb;Database=applicationdb;Trusted_Connection=True;
  prod: ${{ secrets.CONNECTION }}
