@@ -2,7 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/backend/ESP/.vs/
+.vs/
 
-/backend/ESP/ESP/bin/
-/backend/ESP/ESP/obj/
+bin/
+obj/
